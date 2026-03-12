@@ -4,7 +4,7 @@ const resumeBtn = document.getElementById("resumeBtn")
 
 githubBtn.addEventListener("click", function () {
 
-window.open("https://github.com/yourusername", "_blank")
+window.open("https://github.com/repsofcode", "_blank")
 
 })
 
