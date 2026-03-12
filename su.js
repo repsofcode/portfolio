@@ -1,3 +1,4 @@
+// Hero section buttons
 
 const githubBtn = document.getElementById("githubBtn")
 const resumeBtn = document.getElementById("resumeBtn")
@@ -16,15 +17,19 @@ alert("Resume will be added soon")
 })
 
 
+
+
+// Project buttons
+
 const projectButtons = document.querySelectorAll(".projectBtn")
 
 projectButtons.forEach(function(button){
 
 button.addEventListener("click", function(){
 
-const link = button.getAttribute("data-link")
+const repoLink = button.getAttribute("data-link")
 
-window.open(link, "_blank")
+window.open(repoLink, "_blank")
 
 })
 
